@@ -17,11 +17,15 @@ public class Dog extends Animal implements Movable, Speakable {
 
     @Override
     public void stop() {
-        System.out.println("The dog stops.");
+        System.out.println("The dog stopped.");
     }
 
     @Override
     public String getVoice(int voice) {
-        return "Woof woof";
+        if(voice == QUIET) {
+            return "woof woof";
+        } else if(voice == LOUD) {
+            return "WOOF WOOF";
+        } else return "";
     }
 }
