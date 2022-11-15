@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package zad1;
 
 public class Car extends Vehicle {
     private String brand;
@@ -6,12 +6,12 @@ public class Car extends Vehicle {
 
     @Override
     public void start() {
-        System.out.println("Car of brand " + brand + " starts.");
+        System.out.println("zad1.Car of brand " + brand + " starts.");
     }
 
     @Override
     public void stop() {
-        System.out.println("Car of brand " + brand + " stops");
+        System.out.println("zad1.Car of brand " + brand + " stops");
     }
     public Car(String brand) {
         this.brand = brand;

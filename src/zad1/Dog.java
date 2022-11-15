@@ -1,4 +1,4 @@
-import java.util.Random;
+package zad1;
 
 public class Dog extends Animal implements Movable, Speakable {
     public Dog(String name) {
@@ -7,7 +7,7 @@ public class Dog extends Animal implements Movable, Speakable {
 
     @Override
     public String getType() {
-        return "Dog";
+        return "zad1.Dog";
     }
 
     @Override

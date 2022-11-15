@@ -1,3 +1,5 @@
+package zad1;
+
 public interface Speakable {
     int QUIET = 0;
     int  LOUD = 1;

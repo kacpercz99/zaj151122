@@ -1,3 +1,5 @@
+package zad1;
+
 public abstract class Animal {
     private String name = "bez imieina";
 
