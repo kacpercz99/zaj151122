@@ -9,5 +9,10 @@ public class TransportService {
         ship.swim();
         hydroplane.fly();
         hydroplane.swim();
+        Flyable flyingHydroPlane = new Hydroplane();
+        flyingHydroPlane.fly();
+        //nie mozna flyingHydroPlane.swim();
+        Swimable swimmingHydroPlane = new Hydroplane();
+        swimmingHydroPlane.swim();
     }
 }
